@@ -13,7 +13,7 @@ a {
 }
 
 .background-design {
-  z-index: -1 !important;
+  z-index: 1 !important;
 }
 
 .background-design img {
@@ -21,6 +21,12 @@ a {
   width: 35vw;
   left: -4vw;
   z-index: 2 !important;
+}
+
+.home-link {
+  position: relative;
+  cursor: pointer;
+  z-index: 999 !important;
 }
 
 .company-logo {

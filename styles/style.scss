@@ -27,7 +27,7 @@ a {
 //MEDIA SCREEN ABOVE 800px
 
 .background-design {
-    z-index: -1!important;
+    z-index: 1!important;
 
     & img {
         position: absolute;
@@ -36,6 +36,12 @@ a {
         z-index: 2!important;
     }
 }
+.home-link {
+    position: relative;
+    cursor: pointer;
+    z-index: 999!important;
+}
+
 .company-logo {
     width: 60px;
     margin-top: 20px;
